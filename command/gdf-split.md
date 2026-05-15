@@ -1,10 +1,10 @@
-# $split - 任务拆解指令
+# gdf-split - 任务拆解指令
 
 ## 触发条件
-用户输入 `$split`
+用户输入 `gdf-split`
 
 ## 前置条件
-已确认的需求文档（由 `$need` 生成）
+已确认的需求文档（由 `gdf-need` 生成）
 
 ## 执行流程
 
@@ -31,7 +31,7 @@
 
 ### 第2步：生成任务拆解清单
 
-基于 `$need.md` 生成的需求文档，参考模板 `../templates/task-breakdown.md` 拆分为具体任务。
+基于 `gdf-need.md` 生成的需求文档，参考模板 `../templates/task-breakdown.md` 拆分为具体任务，**保存到 `.gdf/tasks/{模块名}.md`**。
 
 ### 第3步：输出任务依赖关系图
 
@@ -102,8 +102,8 @@ flowchart LR
 ✅ 任务清单已锁定！
 
 下一步：
-- 输入 `$new` 开始执行任务
-- 输入 `$status` 查看项目状态
+- 输入 `gdf-new` 开始执行任务
+- 输入 `gdf-status` 查看项目状态
 ```
 
 ## 注意事项

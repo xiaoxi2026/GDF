@@ -1,6 +1,7 @@
 # 任务拆解清单
 
-> 本文档由 `$split` 指令自动生成
+> 本文档由 `gdf-split` 指令自动生成
+> **保存路径**: `.gdf/tasks/{module_name}.md`
 
 ## 文档信息
 

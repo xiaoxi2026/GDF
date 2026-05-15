@@ -6,24 +6,24 @@
 
 | 命令 | 说明 | 使用时机 |
 |------|------|----------|
-| `$init` | 项目初始化 | 第一次使用，或新项目开始时 |
-| `$need` | 需求录入 | 每个新功能/模块开始前 |
-| `$split` | 任务拆解 | 需求确认后，开发开始前 |
-| `$new` | 执行任务 | 开发过程中 |
-| `$add` | 添加功能 | 为已有模块增加新功能时 |
-| `$refactor` | 代码优化 | 定期检查代码质量时 |
-| `$status` | 查看状态 | 随时查看进度 |
+| `gdf-init` | 项目初始化 | 第一次使用，或新项目开始时 |
+| `gdf-need` | 需求录入 | 每个新功能/模块开始前 |
+| `gdf-split` | 任务拆解 | 需求确认后，开发开始前 |
+| `gdf-new` | 执行任务 | 开发过程中 |
+| `gdf-add` | 添加功能 | 为已有模块增加新功能时 |
+| `gdf-refactor` | 代码优化 | 定期检查代码质量时 |
+| `gdf-status` | 查看状态 | 随时查看进度 |
 
 ## 完整流程
 
 ```
-$init → $need → $split → $new → ($add) → ($refactor) → $status
+gdf-init → gdf-need → gdf-split → gdf-new → (gdf-add) → (gdf-refactor) → gdf-status
 ```
 
 **说明**：
-- `$init` 只需要执行一次
-- 每个功能模块需要走 `$need → $split → $new`
-- `$add` 和 `$refactor` 是可选的，按需执行
+- `gdf-init` 只需要执行一次
+- 每个功能模块需要走 `gdf-need → gdf-split → gdf-new`
+- `gdf-add` 和 `gdf-refactor` 是可选的，按需执行
 
 ## 指令文件
 
@@ -31,18 +31,18 @@ $init → $need → $split → $new → ($add) → ($refactor) → $status
 
 | 文件 | 内容 |
 |------|------|
-| `$master.md` | 主指令，角色和命令定义 |
-| `$init.md` | 项目初始化流程 |
-| `$need.md` | 需求录入和QA流程 |
-| `$split.md` | 任务拆解流程 |
-| `$new.md` | 任务执行流程（开发中） |
-| `$add.md` | 添加新功能流程 |
-| `$refactor.md` | 代码优化流程 |
-| `$status.md` | 项目状态查看 |
+| `gdf-master.md` | 主指令，角色和命令定义 |
+| `gdf-init.md` | 项目初始化流程 |
+| `gdf-need.md` | 需求录入和QA流程 |
+| `gdf-split.md` | 任务拆解流程 |
+| `gdf-new.md` | 任务执行流程（开发中） |
+| `gdf-add.md` | 添加新功能流程 |
+| `gdf-refactor.md` | 代码优化流程 |
+| `gdf-status.md` | 项目状态查看 |
 
 ## 执行规则
 
-1. **必须先执行 `$init`**：上传代码样本，分析技术栈
+1. **必须先执行 `gdf-init`**：上传代码样本，分析技术栈
 2. **需求必须先确认**：用户确认需求文档后才能进入开发
 3. **任务清单必须确认**：用户确认任务后才能开始编码
 4. **代码需要用户审核**：每次生成代码后等待用户确认
@@ -58,8 +58,8 @@ $init → $need → $split → $new → ($add) → ($refactor) → $status
 
 ## 快速开始
 
-1. 输入 `$init`，粘贴项目代码样本
-2. 输入 `$need`，描述你的需求
-3. 输入 `$split`，确认任务清单
-4. 输入 `$new`，开始开发
-5. 输入 `$status`，查看进度
+1. 输入 `gdf-init`，粘贴项目代码样本
+2. 输入 `gdf-need`，描述你的需求
+3. 输入 `gdf-split`，确认任务清单
+4. 输入 `gdf-new`，开始开发
+5. 输入 `gdf-status`，查看进度

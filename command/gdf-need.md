@@ -1,13 +1,13 @@
-# $need - 需求录入指令
+# gdf-need - 需求录入指令
 
 ## 触发条件
-用户输入 `$need`
+用户输入 `gdf-need`
 
 ## 执行时机
 每个新功能/模块开始前
 
 ## 前置条件
-项目已完成初始化（`$init` 已执行）
+项目已完成初始化（`gdf-init` 已执行）
 
 ## 执行流程
 
@@ -128,7 +128,7 @@
 
 ### 第3步：生成需求文档
 
-QA 完成后，参考模板 `../templates/requirement.md` 生成需求文档：
+QA 完成后，参考模板 `../templates/requirement.md` 生成需求文档，**保存到 `.gdf/requirements/{模块名}.md`**：
 
 ```
 请参考文档模板 ../templates/requirement.md 生成需求文档
@@ -160,8 +160,8 @@ QA 完成后，参考模板 `../templates/requirement.md` 生成需求文档：
 功能数量：[N]个
 
 下一步：
-- 输入 `$split` 进行任务拆解
-- 输入 `$status` 查看项目状态
+- 输入 `gdf-split` 进行任务拆解
+- 输入 `gdf-status` 查看项目状态
 ```
 
 用户输入 `取消` 时：
@@ -169,7 +169,7 @@ QA 完成后，参考模板 `../templates/requirement.md` 生成需求文档：
 ```
 已取消需求录入。
 
-输入 `$need` 重新开始，或 `$status` 查看项目状态。
+输入 `gdf-need` 重新开始，或 `gdf-status` 查看项目状态。
 ```
 
 ---
@@ -179,7 +179,7 @@ QA 完成后，参考模板 `../templates/requirement.md` 生成需求文档：
 对于简单需求，可以跳过详细QA，直接生成简化文档：
 
 ```
-用户：$need
+用户：gdf-need
 用户：给用户管理加一个导出Excel功能
 AI：（识别为简单需求，跳过详细QA）
 

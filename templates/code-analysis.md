@@ -1,6 +1,7 @@
 # 代码分析报告
 
-> 本文档由 `$refactor` 指令自动生成，用于代码质量分析与优化建议
+> 本文档由 `gdf-refactor` 指令自动生成，用于代码质量分析与优化建议
+> **保存路径**: `.gdf/analysis/{module_name}-analysis.md`
 
 ## 文档信息
 

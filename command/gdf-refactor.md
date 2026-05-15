@@ -1,7 +1,7 @@
-# $refactor - 代码优化指令
+# gdf-refactor - 代码优化指令
 
 ## 触发条件
-用户输入 `$refactor`
+用户输入 `gdf-refactor`
 
 ## 执行时机
 建议每开发 5-10 个模块后执行一次
@@ -25,7 +25,7 @@
 
 ### 第2步：代码分析
 
-对收集到的代码进行以下分析，参考模板 `../templates/code-analysis.md` 生成报告。
+对收集到的代码进行以下分析，参考模板 `../templates/code-analysis.md` 生成报告，**保存到 `.gdf/analysis/{模块名}-analysis.md`**。
 
 ### 第3步：生成优化建议
 
@@ -69,8 +69,8 @@
 规范文档已同步更新。
 
 下一步：
-- 输入 `$status` 查看项目状态
-- 输入 `$new` 继续开发
+- 输入 `gdf-status` 查看项目状态
+- 输入 `gdf-new` 继续开发
 ```
 
 ## 检查项清单

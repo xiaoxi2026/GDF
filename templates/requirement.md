@@ -1,6 +1,7 @@
 # 需求分析文档
 
-> 本文档由 `$need` 指令自动生成
+> 本文档由 `gdf-need` 指令自动生成
+> **保存路径**: `.gdf/requirements/{module_name}.md`
 
 ## 文档信息
 
