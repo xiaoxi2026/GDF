@@ -1,4 +1,5 @@
 # gdf-new - 任务执行指令
+version: 1.0.0
 
 ## 触发条件
 用户输入 `gdf-new`

@@ -1,4 +1,5 @@
 # gdf-add - 添加功能指令
+version: 1.0.0
 
 ## 触发条件
 用户输入 `gdf-add`

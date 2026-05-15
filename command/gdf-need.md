@@ -1,4 +1,5 @@
 # gdf-need - 需求录入指令
+version: 1.0.0
 
 ## 触发条件
 用户输入 `gdf-need`

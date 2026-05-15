@@ -1,4 +1,5 @@
 # gdf-refactor - 代码优化指令
+version: 1.0.0
 
 ## 触发条件
 用户输入 `gdf-refactor`
