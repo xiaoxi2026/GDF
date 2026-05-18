@@ -5,7 +5,7 @@
 运行以下命令安装 GDF 命令：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "e:\gooledown\GDF\install-gdf.ps1"
+powershell -ExecutionPolicy Bypass -File "X:\XXX\GDF\install-gdf.ps1"
 ```
 
 ### 安装选项
@@ -25,7 +25,7 @@ powershell -ExecutionPolicy Bypass -File "e:\gooledown\GDF\install-gdf.ps1"
 **更新示例：**
 ```powershell
 # 改动 gdf-init.md 后，执行以下命令更新
-powershell -ExecutionPolicy Bypass -File "e:\gooledown\GDF\install-gdf.ps1" -Update
+powershell -ExecutionPolicy Bypass -File "X:\XXX\GDF\install-gdf.ps1" -Update
 ```
 
 ## 手动安装
